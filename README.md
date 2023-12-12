@@ -51,10 +51,10 @@ Replace `analyze_leakage.py` with the respective script name for each module.
 
 ## Description of Encryption Modules
 
-- encryption1: Demonstrates a basic encryption algorithm where bits are doubled or left unchanged based on the key, leading to potential information leakage.
-- encryption2: Introduces a basic level of security by applying XOR to the encrypted bits, obscuring the direct relationship between the input and output.
-- encryption3: Implements non-linear transformations to further prevent information leakage.
-- encryption4: Combines multiple cryptographic principles to enhance security and mitigate information leakage effectively.
+- `encryption1`: Demonstrates a basic encryption algorithm where bits are doubled or left unchanged based on the key, leading to potential information leakage.
+- `encryption2`: Introduces a basic level of security by applying XOR to the encrypted bits, obscuring the direct relationship between the input and output.
+- `encryption3`: Implements non-linear transformations to further prevent information leakage.
+- `encryption4`: Combines multiple cryptographic principles to enhance security and mitigate information leakage effectively.
 
 ## Conclusion
 

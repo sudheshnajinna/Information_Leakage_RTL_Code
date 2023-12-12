@@ -1,0 +1,47 @@
+$date
+	Sun Dec 10 15:48:07 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_secure_encryption_module $end
+$var wire 8 ! data_out [7:0] $end
+$var parameter 32 " N $end
+$var reg 8 # data_in [7:0] $end
+$var reg 8 $ key [7:0] $end
+$scope module uut $end
+$var wire 8 % data_in [7:0] $end
+$var wire 8 & key [7:0] $end
+$var parameter 32 ' N $end
+$var reg 8 ( data_out [7:0] $end
+$var integer 32 ) i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 '
+b1000 "
+$end
+#0
+$dumpvars
+b1000 )
+b11101110 (
+b11001100 &
+b10101010 %
+b11001100 $
+b10101010 #
+b11101110 !
+$end
+#10000
+b1110111 !
+b1110111 (
+b1000 )
+b110011 $
+b110011 &
+b1010101 #
+b1010101 %
+#20000

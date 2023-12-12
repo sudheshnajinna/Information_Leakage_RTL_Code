@@ -1,0 +1,86 @@
+$date
+	Sun Dec 10 16:08:56 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_enhanced_encryption_module $end
+$var wire 8 ! data_out [7:0] $end
+$var parameter 32 " N $end
+$var reg 8 # data_in [7:0] $end
+$var reg 8 $ expected_data_out [7:0] $end
+$var reg 8 % key [7:0] $end
+$scope function calculate_expected_output $end
+$var reg 8 & data [7:0] $end
+$var reg 8 ' intermediate [7:0] $end
+$var reg 8 ( k [7:0] $end
+$var integer 32 ) i [31:0] $end
+$var integer 32 * round [31:0] $end
+$upscope $end
+$scope module uut $end
+$var wire 8 + data_in [7:0] $end
+$var wire 8 , key [7:0] $end
+$var parameter 32 - N $end
+$var reg 8 . data_out [7:0] $end
+$var reg 8 / round_key [7:0] $end
+$var reg 8 0 state [7:0] $end
+$var integer 32 1 i [31:0] $end
+$var integer 32 2 round [31:0] $end
+$scope function expand_key $end
+$var reg 8 3 k [7:0] $end
+$var reg 8 4 round [7:0] $end
+$upscope $end
+$upscope $end
+$scope task perform_test $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 -
+b1000 "
+$end
+#0
+$dumpvars
+b10 4
+b11001100 3
+b11 2
+b1000 1
+b10011101 0
+b11001110 /
+b10011101 .
+b11001100 ,
+b10101010 +
+b11 *
+b1000 )
+b11001100 (
+b10011101 '
+b10101010 &
+b11001100 %
+b10011101 $
+b10101010 #
+b10011101 !
+$end
+#10000
+b110101 !
+b110101 .
+b110001 /
+b110011 3
+b10 4
+b1000 1
+b11 2
+b110101 0
+b110101 $
+b1000 )
+b11 *
+b110101 '
+b1010101 &
+b110011 (
+b110011 %
+b110011 ,
+b1010101 #
+b1010101 +
+#20000

@@ -32,13 +32,15 @@ The project is divided into four main directories, each corresponding to a diffe
 ## Running Simulations
 
 Navigate to the directory of the module you wish to simulate and run the following commands:
-
+this is for the fourth module:
 1. **Compile the Verilog Module:**
-- iverilog -o encryption_module.vvp tb_encryption_module.v encryption_module.v
+-` iverilog -o enhanced_encryption_test tb_enhanced_encryption_module.v enhanced_encryption_module.v`
 2. **Execute the Simulation:**
-- vvp encryption_module.vvp
+- `vvp enhanced_encryption_test`
+3. **Analyse Leakage:**
+- `python3 enhanced_analyze_leakage.py`
 3. **View Waveforms:**
-- gtkwave waveform.vcd
+- `gtkwave enhanced_waveform.vcd`
 
 Repeat the above steps for `encryption1`, `encryption2`, `encryption3`, and `encryption4` directories.
 
